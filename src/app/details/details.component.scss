@@ -1,11 +1,16 @@
 div {
-    background: white;
-    padding: 1em;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
-    width: 60vw;
-    margin: auto;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     ul {
         list-style: none;
+        background: white;
+        border-radius: 5px;
+        padding: 1em;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+        width: 60vw;
+        margin: auto;
         li {
             line-height: 2;
             span:nth-child(1) {
