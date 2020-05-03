@@ -1,0 +1,24 @@
+<!-- spinner -->
+<app-loader *ngIf="loading"></app-loader>
+
+<!-- Display information item -->
+<br>
+<div *ngIf="!loading">
+    <ul>
+        <li>
+            <span>Id : </span><span>{{item.id}}</span>
+        </li>
+        <hr>
+        <li>
+            <span>User Id: </span><span>{{item.userId}}</span>
+        </li>
+        <hr>
+        <li>
+            <span>Title : </span><span>{{item.title}}</span>
+        </li>
+        <hr>
+        <li>
+            <span>Body : </span><span>{{item.body}}</span>
+        </li>
+    </ul>
+</div>

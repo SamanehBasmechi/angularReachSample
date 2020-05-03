@@ -1,0 +1,12 @@
+<!-- spinner -->
+<app-loader *ngIf="loading"></app-loader>
+
+<!-- list of data -->
+<div *ngFor="let dataInfo of data">
+
+    <div (click)="showDetails(dataInfo.id)">
+        <h3>{{dataInfo.title}}</h3>
+        <p>{{dataInfo.body}}</p>
+    </div>
+
+</div>

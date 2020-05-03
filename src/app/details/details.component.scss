@@ -1,0 +1,16 @@
+div {
+    background: white;
+    padding: 1em;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    width: 60vw;
+    margin: auto;
+    ul {
+        list-style: none;
+        li {
+            line-height: 2;
+            span:nth-child(1) {
+                font-weight: bold;
+            }
+        }
+    }
+}
